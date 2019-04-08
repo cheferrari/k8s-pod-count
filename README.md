@@ -11,7 +11,7 @@ $ kubectl get pod --all-namespaces -o wide | grep -v NAMESPACE | awk '{print $8}
      23 k8s-node1
      19 k8s-node2
 ```
-## 1.统计k8s集群每个namespace下pod数量
+## 2.统计k8s集群每个namespace下pod数量
 ```shell
 $ python count_ns_pods.py 
 ('kube-public', 0)
