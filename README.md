@@ -1,5 +1,5 @@
 # k8s-pod-count
-https://img.shields.io/badge/language-{项目语言}-{背景色}.svg [![Build Status](https://travis-ci.com/cheferrari/k8s-pod-count.svg?branch=master)](https://travis-ci.com/cheferrari/k8s-pod-count)
+[![language]](https://img.shields.io/badge/language-{项目语言}-{背景色}.svg) [![Build Status](https://travis-ci.com/cheferrari/k8s-pod-count.svg?branch=master)](https://travis-ci.com/cheferrari/k8s-pod-count)
 ## 1.统计k8s集群每个节点的pod数量
 ```shell
 $ python count_node_pods.py 
